@@ -6,7 +6,7 @@ This repository includes a simple Serverless application written in Python used 
 whether or not the pipeline should fail. OPA pulls policy rules from another Github repository so that they are kept in an unique place for the whole organization (see the Github workflow for the url).
 
 ## Local setup
-
+    
 In order to use this project locally, you also need to setup localstack (provided as as a container in the `docker-compose` file).
 Run the following command to start localstack:
 ```
